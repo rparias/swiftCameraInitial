@@ -18,7 +18,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="74h-iv-DaW">
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="n69-ic-YUX"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="n69-ic-YUX">
+                            <connections>
+                                <action selector="takePhotoPressed:" destination="BYZ-38-t0r" id="QGH-Ag-6vQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
